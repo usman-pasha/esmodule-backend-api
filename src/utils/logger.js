@@ -17,7 +17,7 @@ const logFormat = printf(({ level, message, label, timestamp }) => {
 });
 
 // Logs directory
-const logsDirectory = "C:/ShentonBackend/logs";
+const logsDirectory = "C:/ESBackend/logs";
 // const logsDirectory = path.join(__dirname, "..", "logs");
 
 if (!fs.existsSync(logsDirectory)) {
